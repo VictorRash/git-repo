@@ -10,16 +10,16 @@
 	<div class="container">
 		<h1>Мой Первый Блог</h1>
 		<div>
-			<?php foreach($articles as $a): ?>
+			
 			<div class="article">
 				<h3>
-					<a href="article.php?id=<?=$a['id']?>"><?=$a['title']?>						
-					</a>
+					<?=$article['title']?>						
+					
 				</h3>
-				<em>Опубликовано: <?=$a['date']?></em>
-				<p><?=$a['content']?></p>
+				<em>Опубликовано: <?=$article['date']?></em>
+				<p><?=$article['content']?></p>
 			</div>
-		<?php endforeach ?>
+		
 			
 		</div>
 		<footer>

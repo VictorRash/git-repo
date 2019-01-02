@@ -11,6 +11,7 @@
 	}
 
 	function articles_get($id){
+		return["id" => 1, "title" => "Это простой заголовок", "date" => "2018-12-01", "content" => "Здесь будет статья"];
 		
 	}
 
